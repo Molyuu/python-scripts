@@ -13,7 +13,7 @@ def solve_function():
         c = int(argv[3])
     except:
         print("BAD USAGE!")
-        exit(1)
+        exit(9)
 
     if b**2 - 4 * a * c < 0:
         print("方程没有根")
